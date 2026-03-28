@@ -1,28 +1,68 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Home</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/navbar.css">
 </head>
+
 <body>
-    <div class="main-container">
-        <div class="img-container">
-            <img src="./images/main-logo.jpg" alt="logo" class="main-logo">
-            <h1 class="website-name">Plan My <span style="color: #E65018;">Yatra</span></h1>
+    <div class="main-hero-section">
+        <div class="main-container">
+            <div class="img-container">
+                <img src="./images/main-logo.jpg" alt="logo" class="main-logo">
+                <h1 class="website-name">Plan My <span style="color: #E65018;">Yatra</span></h1>
+            </div>
+            <div class="nav-menu">
+                <a href="./index.html" class="menu">Home</a>
+                <a href="./pages/destination.html" class="menu">Destination</a>
+                <a href="" class="menu">Plan Trip</a>
+                <a href="" class="menu">About</a>
+                <a href="" class="menu">Contact</a>
+            </div>
+            <div class="nav-menu">
+                <a href="" class="menu">Login</a>
+                <a href="" class="menu">Sign Up</a>
+            </div>
         </div>
-        <div class="nav-menu">
-            <a href="./index.html" class="menu">Home</a>
-            <a href="" class="menu">Destination</a>
-            <a href="" class="menu">Plan Trip</a>
-            <a href="" class="menu">About</a>
-            <a href="" class="menu">Contact</a>
-        </div>
-        <div class="nav-menu">
-            <a href="" class="menu">Login</a>
-            <a href="" class="menu">Sign Up</a>
+        <div class="main-content">
+            <div class="highlighted-main-text">
+                <span class="highlighted-text"><img src="./images/explore.svg" height="20px">EXPLORE</span>
+                <span class="highlighted-text"><img src="./images/experience.svg" height="20px">EXPERIANCE</span>
+                <span class="highlighted-text"><img src="./images/enjoy.svg.svg" height="20px">ENJOY</span>
+            </div>
+            <div class="sub-content">
+                <span class="heading-1">Plan Your</span>
+                <br />
+                Perfect Yatra
+            </div>
+            <div class="main-info">
+                Discover the best places to visit,things to do, and local experience to make your trip unforgatable.
+                enjoy a seamless travel planning experience with our user friendly interface and personalized
+                recommendation.
+            </div>
+            <div class="destination-container">
+                <div>
+                    <img src="./images/location.svg" alt="location" height="20px">
+                    <input type="text" placeholder="search for destination,activities,or experience">
+                </div>
+                <div>
+                    <img src="./images/date.svg" alt="date" height="20px">
+                    <input type="date">
+                </div>
+                <div>
+                    <img src="./images/people.svg" alt="people" height="20px">
+                    <input type="number" placeholder="Number of travelers">
+                </div>
+                <div>
+                    <img src="./images/search.svg" alt="search" height="20px">
+                    <button>search</button>
+                </div>
+            </div>
         </div>
     </div>
-    
 </body>
+
 </html>

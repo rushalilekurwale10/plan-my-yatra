@@ -1,0 +1,34 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+}
+.website-name {
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
+}
+.main-logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.menu {
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
