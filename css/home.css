@@ -105,78 +105,205 @@
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .destination-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 50px;
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
 .destination-section-heading {
     font-size: 40px;
 }
+
 .destination-section-container {
     display: flex;
     flex-direction: row;
     gap: 30px;
     margin-top: 30px;
 }
+
 .destination-section-item-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url(./../images/tajmahal.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/tajmahal.jpg);
     background-size: cover;
     background-position: center;
     height: 360px;
     width: 250px;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
+.card-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-top-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card-name {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card-price {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.card-bottom-info {
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    gap: 5px;
+}
+
+.btn-book {
+    background-color: #E65018;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .destination-section-item-2 {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.destination-section-item-2-sub-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url(./../images/kerala.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 180px;
-    width: 300px;
-    margin-top: 30px;
-    border-radius: 20px;
 
+.destination-section-item-2-sub-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/kerala.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
+
 .destination-section-item-2-sub-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url(./../images/goa.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/goa.jpg);
     background-size: cover;
     background-position: center;
     height: 180px;
     width: 300px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
 .destination-section-item-3 {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
 .destination-section-item-3-sub-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url(./../images/udaipur.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/udaipur.jpg);
     background-size: cover;
     background-position: center;
     height: 180px;
     width: 300px;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 20px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
 .destination-section-item-3-sub-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url(./../images/kashi.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/kashi.jpg);
     background-size: cover;
     background-position: center;
     height: 180px;
     width: 300px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
+.work-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+.work-section-heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.work-card-heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.work-section-description {
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.work-section-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.work-section-card-container-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.work-section-card-container-items:hover {
+    border: 1px solid #E65018;
+    transition: border 0.6s ease;
+}
+.work-session-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.work-session-img {
+    background-color: #fadcd1;
+    padding: 15px;
+    border-radius: 50%;
 }
