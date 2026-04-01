@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    padding-top: 5px;
     opacity: 0.9;
 }
 
@@ -24,11 +25,13 @@
     color: black;
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .highlighted-text {
     padding-right: 20px;
+    padding-top: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -306,4 +309,56 @@
     background-color: #fadcd1;
     padding: 15px;
     border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+    .main-hero-section {
+        min-height: 100vh;
+    }
+    .sub-content {
+        font-size: 38px;
+    }
+    .main-info {
+        width: 100%;
+        font-size: 14px;
+    }
+    .destination-container {
+        flex-direction: column;
+        width: 90%;
+        border-radius: 10px;
+    }
+    .detination-input {
+        width: 100%;
+    }
+    .btn-search {
+        width: 100%;
+        padding: 15px;
+    }
+    .recommendation {
+        flex-wrap: wrap;
+    }
+    .destination-section{
+        margin-top: 100px;
+    }
+    .destination-section-heading {
+        font-size: 30px;
+    }
+    .destination-section-description {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .destination-section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-section-heading {
+        font-size: 30px;
+    }
+    .work-section-description {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .work-section-card-container {
+        flex-direction: column;
+    }
+    
 }
