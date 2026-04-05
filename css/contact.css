@@ -85,3 +85,14 @@ textarea {
 .btn:hover {
     background: #c84314;
 }
+/* RESPONSIVE */
+@media(max-width:768px){
+  .contact-container{
+    flex-direction:column;
+  }
+
+  header{
+    flex-direction:column;
+    gap:10px;
+  }
+}
