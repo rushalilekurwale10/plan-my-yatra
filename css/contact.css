@@ -33,3 +33,51 @@
 .contact-info p{
   margin-bottom:10px;
 }
+.contact-form{
+  flex:1;
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form h2{
+  margin-bottom:20px;
+}
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:15px;
+}
+
+.form-group label{
+  margin-bottom:5px;
+}
+
+.form-group input,
+.form-group textarea{
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+
+textarea{
+  resize:none;
+  height:120px;
+}
+
+.btn{
+  padding:12px;
+  margin-left: 190px;
+  border:none;
+  background:#E65018;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#c84314;
+}
