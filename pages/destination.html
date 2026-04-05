@@ -1,33 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Plan My Yatra - Destinations</title>
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="stylesheet" href="./../css/destination.css">
     <link rel="stylesheet" href="./../css/navbar.css">
+    <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet" href="./../css/destination.css">
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="img-container">
-            <img src="./../images/main-logo.jpg" alt="logo" class="main-logo">
-            <h1 class="website-name">Plan My <span style="color: #E65018;">Yatra</span></h1>
+    <div class="main-hero-section">
+        <section class="hero">
+            <h1>Explore Beautiful Destinations</h1>
+        </section>
+
+        <div class="filter">
+            <input type="text" placeholder="Search destination">
+            <select>
+                <option>Budget</option>
+                <option>₹ 0 - ₹ 5000</option>
+                <option>₹ 5000 - ₹ 10000</option>
+            </select>
+            <button>Search</button>
         </div>
-        <div class="nav-menu">
-            <a href="./../index.html" class="menu">Home</a>
-            <a href="./destination.html" class="menu">Destination</a>
-            <a href="" class="menu">Plan Trip</a>
-            <a href="" class="menu">About</a>
-            <a href="" class="menu">Contact</a>
+
+        <div class="container">
+
+            <div class="card">
+                <img src="./../images/tajmahall.jpg">
+                <div class="card-content">
+                    <h3>Taj Mahal</h3>
+                    <p>Agra, India</p>
+                    <span class="price">₹ 4,999</span>
+                    <button class="btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./../images/goaa.jpg">
+                <div class="card-content">
+                    <h3>Goa</h3>
+                    <p>Goa, India</p>
+                    <span class="price">₹ 5,999</span>
+                    <button class="btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./../images/keralaa.jpg">
+                <div class="card-content">
+                    <h3>Kerala</h3>
+                    <p>Kerala, India</p>
+                    <span class="price">₹ 5,499</span>
+                    <button class="btn">Explore</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./../images/udaipurr.jpg">
+                <div class="card-content">
+                    <h3>Udaipur</h3>
+                    <p>Rajasthan, India</p>
+                    <span class="price">₹ 4,500</span>
+                    <button class="btn">Explore</button>
+                </div>
+            </div>
+
         </div>
-        <div class="nav-menu">
-            <a href="" class="menu">Login</a>
-            <a href="" class="menu">Sign Up</a>
         </div>
-    </div>
 </body>
 
 </html>
