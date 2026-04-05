@@ -15,7 +15,7 @@
 
 /* FORM SECTION */
 .form-section{
-  max-width:900px;
+  max-width:700px;
   margin:40px auto;
   background:white;
   padding:30px;
@@ -77,8 +77,11 @@ textarea{
 
 /* BUTTON */
 .btn{
-  width:100%;
+  width:70%;
+  display: flex;
+  justify-content: space-evenly;
   padding:12px;
+  margin-left: 100px;
   background:#E65018;
   border:none;
   color:white;
