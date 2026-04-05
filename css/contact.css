@@ -1,0 +1,8 @@
+.hero{
+  height:40vh;
+  background:url('https://images.unsplash.com/photo-1488646953014-85cb44e25828') center/cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:black;
+}
