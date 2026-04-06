@@ -1,0 +1,110 @@
+body{
+  height:100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('./../images/sea.jpg') center/cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+/* LOGIN CONTAINER */
+.login-container{
+  width:350px;
+  background:white;
+  padding:30px;
+  margin-top: 80px;
+  border-radius:15px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+  text-align:center;
+}
+
+.login-container h2{
+  margin-bottom:20px;
+}
+/* INPUT GROUP */
+.form-group{
+  text-align:left;
+  margin-bottom:15px;
+}
+
+.form-group label{
+  display:block;
+  margin-bottom:5px;
+}
+.form-group input{
+  width:100%;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  outline:none;
+  transition:0.3s;
+}
+
+.form-group input:focus{
+  border-color:#E65018;
+}
+
+/* OPTIONS */
+.options{
+  display:flex;
+  justify-content:space-between;
+  font-size:14px;
+  margin-bottom:15px;
+}
+
+.options a{
+  text-decoration:none;
+  color:#E65018;
+}
+
+/* BUTTON */
+.btn{
+  width:100%;
+  padding:12px;
+  border:none;
+  background:#E65018;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#c84314;
+}
+/* SOCIAL LOGIN */
+.social-login{
+  margin-top:15px;
+}
+
+.social-login button{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.google{
+  background:#db4437;
+  color:white;
+}
+
+/* REGISTER */
+.register{
+  margin-top:15px;
+  font-size:14px;
+}
+
+.register a{
+  color:#E65018;
+  text-decoration:none;
+}
+
+/* RESPONSIVE */
+@media(max-width:400px){
+  .login-container{
+    width:90%;
+  }
+}
